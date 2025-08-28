@@ -7,10 +7,16 @@ import { CartSummary } from "@/components/cart/cart-summary"
 import { Button } from "@/components/ui/button"
 import { useCart } from "@/lib/cart-store"
 import { ArrowLeft, ShoppingBag } from "lucide-react"
+import { useEffect, useState } from "react"
 
 export default function CartPage() {
   const { items } = useCart()
   const router = useRouter()
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    setIsLoading(false)
+  }, [])
 
   const handleCheckout = () => {
     router.push("/checkout")
@@ -18,6 +24,19 @@ export default function CartPage() {
 
   const handleContinueShopping = () => {
     router.push("/search")
+  }
+
+  if (isLoading) {
+    return (
+      <PageShell>
+        <div className="container mx-auto px-4 py-16">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
+            <p className="mt-4 text-muted-foreground">Loading cart...</p>
+          </div>
+        </div>
+      </PageShell>
+    )
   }
 
   if (items.length === 0) {

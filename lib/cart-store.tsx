@@ -2,6 +2,7 @@
 
 import { create } from "zustand"
 import { persist } from "zustand/middleware"
+import { useEffect, useState } from "react"
 import type React from "react"
 
 interface CartItem {
@@ -27,35 +28,7 @@ interface CartState {
 export const useCartStore = create<CartState>()(
   persist(
     (set, get) => ({
-      items: [
-        {
-          id: "1",
-          title: "Wireless Bluetooth Headphones",
-          brand: "AudioTech",
-          image: "/wireless-headphones.png",
-          price: 79.99,
-          quantity: 1,
-          variants: { color: "Black" },
-        },
-        {
-          id: "2",
-          title: "Organic Cotton T-Shirt",
-          brand: "EcoWear",
-          image: "/cotton-t-shirt.png",
-          price: 24.99,
-          quantity: 2,
-          variants: { size: "M", color: "White" },
-        },
-        {
-          id: "3",
-          title: "Smart Home Security Camera",
-          brand: "SecureHome",
-          image: "/outdoor-security-camera.png",
-          price: 149.99,
-          quantity: 1,
-          variants: { color: "White" },
-        },
-      ],
+      items: [],
       addItem: (item) =>
         set((state) => {
           const existingItem = state.items.find((i) => i.id === item.id)
@@ -88,8 +61,30 @@ export const useCartStore = create<CartState>()(
   ),
 )
 
+export function useCart() {
+  const [isHydrated, setIsHydrated] = useState(false)
+  const store = useCartStore()
+
+  useEffect(() => {
+    setIsHydrated(true)
+  }, [])
+
+  // Return empty state during SSR/before hydration
+  if (!isHydrated) {
+    return {
+      items: [],
+      addItem: () => {},
+      removeItem: () => {},
+      updateQuantity: () => {},
+      clearCart: () => {},
+      getItemCount: () => 0,
+      getTotal: () => 0,
+    }
+  }
+
+  return store
+}
+
 export function CartProvider({ children }: { children: React.ReactNode }) {
   return <>{children}</>
 }
-
-export const useCart = useCartStore

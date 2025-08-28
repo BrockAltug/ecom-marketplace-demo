@@ -16,7 +16,6 @@ export default function Error({
     // Log the error to an error reporting service
     console.error("Application error:", error)
   }, [error])
-  
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-background to-muted/50">

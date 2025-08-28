@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
@@ -62,11 +61,18 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-8">
-      <Card className="w-full max-w-md">
+    <div className="relative min-h-screen flex items-center justify-center bg-gray-50 px-4 py-8">
+      {/* Floating Banner */}
+      <div className="absolute top-6 left-1/2 -translate-x-1/2 bg-green-600 text-white text-lg md:text-xl font-bold px-6 py-3 rounded-2xl shadow-lg animate-bounce text-center z-50">
+        ⚠️ FOR TESTING PURPOSES ONLY – ACCOUNTS CREATED HERE ARE NOT REAL ⚠️
+      </div>
+
+      <Card className="w-full max-w-md mt-20">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Create account</CardTitle>
-          <CardDescription className="text-center">Join thousands of happy customers</CardDescription>
+          <CardDescription className="text-center">
+            Join thousands of happy customers
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -147,11 +153,11 @@ export default function RegisterPage() {
               />
               <Label htmlFor="terms" className="text-sm">
                 I agree to the{" "}
-                <Link href="/terms" className="text-pink-600 hover:text-pink-700">
+                <Link href="/terms" className="text-green-600 hover:text-green-700">
                   Terms of Service
                 </Link>{" "}
                 and{" "}
-                <Link href="/privacy" className="text-pink-600 hover:text-pink-700">
+                <Link href="/privacy" className="text-green-600 hover:text-green-700">
                   Privacy Policy
                 </Link>
               </Label>
@@ -170,7 +176,7 @@ export default function RegisterPage() {
           </form>
           <div className="mt-6 text-center text-sm">
             <span className="text-gray-600">Already have an account? </span>
-            <Link href="/login" className="text-pink-600 hover:text-pink-700 font-medium">
+            <Link href="/login" className="text-green-600 hover:text-green-700 font-medium">
               Sign in
             </Link>
           </div>

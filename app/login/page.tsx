@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
@@ -42,11 +41,18 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
-      <Card className="w-full max-w-md">
+    <div className="relative min-h-screen flex items-center justify-center bg-gray-50 px-4">
+      {/* Floating Banner */}
+      <div className="absolute top-6 left-1/2 -translate-x-1/2 bg-green-600 text-white text-lg md:text-xl font-bold px-6 py-3 rounded-2xl shadow-lg animate-bounce text-center z-50">
+        ⚠️ FOR TESTING PURPOSES ONLY – ACCOUNTS CREATED HERE ARE NOT REAL ⚠️
+      </div>
+
+      <Card className="w-full max-w-md mt-20">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Welcome back</CardTitle>
-          <CardDescription className="text-center">Sign in to your account to continue shopping</CardDescription>
+          <CardDescription className="text-center">
+            Sign in to your account to continue shopping
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -96,14 +102,16 @@ export default function LoginPage() {
               )}
             </Button>
           </form>
+
           <div className="mt-6 text-center text-sm">
             <span className="text-gray-600">Don't have an account? </span>
-            <Link href="/register" className="text-pink-600 hover:text-pink-700 font-medium">
+            <Link href="/register" className="text-green-600 hover:text-green-700 font-medium">
               Sign up
             </Link>
           </div>
+
           <div className="mt-4 text-center">
-            <Link href="/forgot-password" className="text-sm text-gray-600 hover:text-gray-700">
+            <Link href="/forgot-password" className="text-sm text-green-600 hover:text-green-700">
               Forgot your password?
             </Link>
           </div>

@@ -3,7 +3,7 @@
 ![Marketplace Demo](./public/home.png)
 
 <p align="center">
-  <a href="https://your-demo-link.com" target="_blank">
+  <a href="https://ecom-marketplace-demo.netlify.app" target="_blank">
     <img src="https://img.shields.io/badge/View%20Demo-14b8a6?style=for-the-badge&logo=vercel&logoColor=white" alt="View Demo">
   </a>
 </p>

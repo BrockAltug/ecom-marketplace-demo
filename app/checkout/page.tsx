@@ -26,53 +26,43 @@ export default function CheckoutPage() {
   const [completedSteps, setCompletedSteps] = useState<string[]>([])
   const [orderPlaced, setOrderPlaced] = useState(false)
   const [useExpressCheckout, setUseExpressCheckout] = useState(false)
-  const { state, dispatch } = useCart()
-  const { user } = useAuth()
+
+  // ✅ Safe store access
+  const cart = useCart()
+  const state = cart?.state ?? { items: [] }
+  const dispatch = cart?.dispatch ?? (() => {})
+
+  const { user } = useAuth() ?? {}
   const router = useRouter()
 
   const handleStepComplete = (step: string) => {
     setCompletedSteps((prev) => [...prev, step])
-
-    if (step === "shipping") {
-      setCurrentStep("payment")
-    } else if (step === "payment") {
-      setCurrentStep("review")
-    }
+    if (step === "shipping") setCurrentStep("payment")
+    if (step === "payment") setCurrentStep("review")
   }
 
-  const handleBackToCart = () => {
-    router.push("/cart")
-  }
-
-  const handleBackToShipping = () => {
-    setCurrentStep("shipping")
-  }
-
-  const handleBackToPayment = () => {
-    setCurrentStep("payment")
-  }
+  const handleBackToCart = () => router.push("/cart")
+  const handleBackToShipping = () => setCurrentStep("shipping")
+  const handleBackToPayment = () => setCurrentStep("payment")
 
   const handlePlaceOrder = () => {
     setOrderPlaced(true)
-    // Clear cart after order
-    setTimeout(() => {
-      dispatch({ type: "CLEAR_CART" })
-    }, 2000)
+    setTimeout(() => dispatch({ type: "CLEAR_CART" }), 2000)
   }
 
   const handleExpressCheckout = () => {
     setUseExpressCheckout(true)
     setOrderPlaced(true)
-    setTimeout(() => {
-      dispatch({ type: "CLEAR_CART" })
-    }, 1500)
+    setTimeout(() => dispatch({ type: "CLEAR_CART" }), 1500)
   }
 
-  if (state.items.length === 0 && !orderPlaced) {
+  // ✅ Guard against empty cart
+  if ((state.items?.length ?? 0) === 0 && !orderPlaced) {
     router.push("/cart")
     return null
   }
 
+  // ✅ Order confirmation page
   if (orderPlaced) {
     return (
       <PageShell>
@@ -90,9 +80,7 @@ export default function CheckoutPage() {
                 <div className="flex items-center gap-2">
                   <Truck className="h-4 w-4 text-accent" />
                   <span className="text-sm font-medium">Express Delivery</span>
-                  <Badge variant="secondary" className="text-xs">
-                    Tomorrow
-                  </Badge>
+                  <Badge variant="secondary" className="text-xs">Tomorrow</Badge>
                 </div>
                 <div className="flex items-center gap-2">
                   <Gift className="h-4 w-4 text-accent" />
@@ -122,12 +110,13 @@ export default function CheckoutPage() {
     )
   }
 
+  // ✅ Main checkout flow
   return (
     <PageShell>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold text-center mb-8">Checkout</h1>
 
-        {user && state.items.length === 1 && (
+        {user && (state.items?.length ?? 0) === 1 && (
           <div className="mb-8">
             <Card className="border-yellow-200 bg-gradient-to-r from-yellow-50 to-orange-50">
               <CardContent className="p-4">
@@ -173,11 +162,9 @@ export default function CheckoutPage() {
                   <div>
                     <h3 className="font-semibold mb-2">Order Items</h3>
                     <div className="space-y-2">
-                      {state.items.map((item) => (
+                      {(state.items ?? []).map((item) => (
                         <div key={item.id} className="flex justify-between text-sm">
-                          <span>
-                            {item.title} × {item.quantity}
-                          </span>
+                          <span>{item.title} × {item.quantity}</span>
                           <span>${(item.price * item.quantity).toFixed(2)}</span>
                         </div>
                       ))}
@@ -189,10 +176,8 @@ export default function CheckoutPage() {
                   <div>
                     <h3 className="font-semibold mb-2">Shipping Address</h3>
                     <p className="text-sm text-muted-foreground">
-                      123 Main Street
-                      <br />
-                      Apartment 4B
-                      <br />
+                      123 Main Street<br />
+                      Apartment 4B<br />
                       New York, NY 10001
                     </p>
                   </div>
@@ -227,9 +212,7 @@ export default function CheckoutPage() {
                   </div>
 
                   <div className="flex justify-between">
-                    <Button variant="outline" onClick={handleBackToPayment}>
-                      Back to Payment
-                    </Button>
+                    <Button variant="outline" onClick={handleBackToPayment}>Back to Payment</Button>
                     <Button onClick={handlePlaceOrder} className="bg-accent hover:bg-accent/90">
                       Place Order
                     </Button>
@@ -252,7 +235,7 @@ export default function CheckoutPage() {
                       <span className="text-sm font-medium">You'll earn</span>
                     </div>
                     <Badge className="bg-accent text-accent-foreground">
-                      {Math.floor(state.items.reduce((sum, item) => sum + item.price * item.quantity, 0))} points
+                      {Math.floor((state.items ?? []).reduce((sum, item) => sum + item.price * item.quantity, 0))} points
                     </Badge>
                   </div>
                 </CardContent>

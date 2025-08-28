@@ -1,0 +1,16 @@
+[
+  { "date": "2024-01-01", "revenue": 2400, "orders": 45, "visitors": 1200 },
+  { "date": "2024-01-02", "revenue": 1398, "orders": 28, "visitors": 980 },
+  { "date": "2024-01-03", "revenue": 9800, "orders": 89, "visitors": 2100 },
+  { "date": "2024-01-04", "revenue": 3908, "orders": 67, "visitors": 1650 },
+  { "date": "2024-01-05", "revenue": 4800, "orders": 78, "visitors": 1890 },
+  { "date": "2024-01-06", "revenue": 3800, "orders": 56, "visitors": 1420 },
+  { "date": "2024-01-07", "revenue": 4300, "orders": 72, "visitors": 1780 },
+  { "date": "2024-01-08", "revenue": 5200, "orders": 84, "visitors": 1950 },
+  { "date": "2024-01-09", "revenue": 3600, "orders": 61, "visitors": 1340 },
+  { "date": "2024-01-10", "revenue": 4900, "orders": 79, "visitors": 1820 },
+  { "date": "2024-01-11", "revenue": 6100, "orders": 92, "visitors": 2200 },
+  { "date": "2024-01-12", "revenue": 4200, "orders": 68, "visitors": 1560 },
+  { "date": "2024-01-13", "revenue": 5800, "orders": 87, "visitors": 2050 },
+  { "date": "2024-01-14", "revenue": 7200, "orders": 105, "visitors": 2400 }
+]

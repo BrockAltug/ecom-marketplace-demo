@@ -1,0 +1,693 @@
+[
+  {
+    "id": "1",
+    "title": "Wireless Bluetooth Headphones",
+    "brand": "AudioTech",
+    "category": "electronics",
+    "subcategory": "Audio",
+    "images": [
+      "/wireless-headphones.png",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 79.99,
+    "listPrice": 99.99,
+    "rating": 4.5,
+    "reviews": 1247,
+    "badges": ["Best Seller", "Free Shipping"],
+    "shipping": "Free",
+    "stock": 45,
+    "variants": [
+      { "type": "color", "options": ["Black", "White", "Blue", "Rose Gold"] },
+      { "type": "size", "options": ["Standard"] }
+    ],
+    "seller": "AudioTech Official",
+    "specs": {
+      "Battery Life": "30 hours",
+      "Connectivity": "Bluetooth 5.0",
+      "Weight": "250g",
+      "Warranty": "2 years",
+      "Driver Size": "40mm",
+      "Frequency Response": "20Hz-20kHz"
+    },
+    "description": "Premium wireless headphones with active noise cancellation and superior sound quality. Perfect for music lovers and professionals.",
+    "features": ["Active Noise Cancellation", "Quick Charge", "Voice Assistant", "Foldable Design"],
+    "tags": ["wireless", "bluetooth", "noise-cancelling", "premium"]
+  },
+  {
+    "id": "2",
+    "title": "Organic Cotton T-Shirt",
+    "brand": "EcoWear",
+    "category": "clothing",
+    "subcategory": "Men's Clothing",
+    "images": ["/cotton-t-shirt.png", "/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+    "price": 24.99,
+    "listPrice": 34.99,
+    "rating": 4.3,
+    "reviews": 892,
+    "badges": ["Eco-Friendly", "Organic"],
+    "shipping": "Free",
+    "stock": 120,
+    "variants": [
+      { "type": "color", "options": ["White", "Black", "Gray", "Navy", "Forest Green", "Burgundy"] },
+      { "type": "size", "options": ["XS", "S", "M", "L", "XL", "XXL"] }
+    ],
+    "seller": "EcoWear Store",
+    "specs": {
+      "Material": "100% Organic Cotton",
+      "Fit": "Regular",
+      "Care": "Machine Wash",
+      "Origin": "Made in USA",
+      "GSM": "180",
+      "Certification": "GOTS Certified"
+    },
+    "description": "Comfortable and sustainable organic cotton t-shirt. Made with eco-friendly materials and ethical manufacturing practices.",
+    "features": ["GOTS Certified", "Pre-shrunk", "Reinforced Seams", "Tagless"],
+    "tags": ["organic", "sustainable", "cotton", "basic", "eco-friendly"]
+  },
+  {
+    "id": "7",
+    "title": "MacBook Pro 16-inch M3",
+    "brand": "Apple",
+    "category": "electronics",
+    "subcategory": "Laptops",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 2499.99,
+    "listPrice": 2699.99,
+    "rating": 4.9,
+    "reviews": 3421,
+    "badges": ["Premium", "Professional", "New"],
+    "shipping": "Free",
+    "stock": 23,
+    "variants": [
+      { "type": "color", "options": ["Space Gray", "Silver"] },
+      { "type": "storage", "options": ["512GB", "1TB", "2TB"] },
+      { "type": "memory", "options": ["18GB", "36GB"] }
+    ],
+    "seller": "Apple Store",
+    "specs": {
+      "Processor": "Apple M3 Pro",
+      "Display": "16.2-inch Liquid Retina XDR",
+      "Memory": "18GB Unified Memory",
+      "Storage": "512GB SSD",
+      "Battery": "Up to 22 hours",
+      "Weight": "4.7 lbs"
+    },
+    "description": "The most powerful MacBook Pro ever with M3 Pro chip, stunning Liquid Retina XDR display, and all-day battery life.",
+    "features": ["M3 Pro Chip", "Liquid Retina XDR", "ProRes Video", "Thunderbolt 4", "MagSafe 3"],
+    "tags": ["laptop", "apple", "professional", "creative", "powerful"]
+  },
+  {
+    "id": "8",
+    "title": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "category": "electronics",
+    "subcategory": "Smartphones",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 1199.99,
+    "listPrice": 1299.99,
+    "rating": 4.8,
+    "reviews": 5672,
+    "badges": ["Flagship", "5G", "Pro Camera"],
+    "shipping": "Free",
+    "stock": 67,
+    "variants": [
+      { "type": "color", "options": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"] },
+      { "type": "storage", "options": ["256GB", "512GB", "1TB"] }
+    ],
+    "seller": "Apple Store",
+    "specs": {
+      "Display": "6.7-inch Super Retina XDR",
+      "Chip": "A17 Pro",
+      "Camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+      "Storage": "256GB",
+      "5G": "Yes",
+      "Battery": "Up to 29 hours video"
+    },
+    "description": "The ultimate iPhone with titanium design, A17 Pro chip, and the most advanced camera system ever in iPhone.",
+    "features": ["Titanium Design", "A17 Pro Chip", "Pro Camera System", "Action Button", "USB-C"],
+    "tags": ["smartphone", "iphone", "flagship", "camera", "5g"]
+  },
+  {
+    "id": "9",
+    "title": "Samsung 65\" QLED 4K Smart TV",
+    "brand": "Samsung",
+    "category": "electronics",
+    "subcategory": "Smart Home",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 1299.99,
+    "listPrice": 1599.99,
+    "rating": 4.6,
+    "reviews": 2134,
+    "badges": ["4K", "Smart TV", "HDR"],
+    "shipping": "Free Installation",
+    "stock": 34,
+    "variants": [
+      { "type": "size", "options": ["55\"", "65\"", "75\"", "85\""] },
+      { "type": "color", "options": ["Titan Gray", "Cloud White"] }
+    ],
+    "seller": "Samsung Official",
+    "specs": {
+      "Display": "65-inch QLED 4K",
+      "Resolution": "3840 x 2160",
+      "HDR": "HDR10+",
+      "Smart Platform": "Tizen OS",
+      "Refresh Rate": "120Hz",
+      "Audio": "Dolby Atmos"
+    },
+    "description": "Immersive 4K QLED experience with Quantum Dot technology, smart features, and stunning picture quality.",
+    "features": ["Quantum Dot Technology", "Smart Hub", "Voice Control", "Gaming Mode", "Ambient Mode"],
+    "tags": ["tv", "4k", "smart", "qled", "entertainment"]
+  },
+  {
+    "id": "10",
+    "title": "Nike Air Max 270",
+    "brand": "Nike",
+    "category": "clothing",
+    "subcategory": "Shoes",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 149.99,
+    "listPrice": 170.0,
+    "rating": 4.4,
+    "reviews": 3456,
+    "badges": ["Athletic", "Comfort", "Popular"],
+    "shipping": "Free",
+    "stock": 89,
+    "variants": [
+      { "type": "color", "options": ["White/Black", "Triple Black", "University Red", "Ocean Blue", "Pink Foam"] },
+      { "type": "size", "options": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12"] }
+    ],
+    "seller": "Nike Store",
+    "specs": {
+      "Upper": "Mesh and synthetic",
+      "Sole": "Air Max unit",
+      "Closure": "Lace-up",
+      "Width": "Medium",
+      "Activity": "Lifestyle/Running"
+    },
+    "description": "Iconic Nike Air Max 270 with the largest Air unit yet for all-day comfort and style.",
+    "features": ["Max Air Unit", "Breathable Mesh", "Durable Outsole", "Iconic Design"],
+    "tags": ["sneakers", "nike", "air max", "athletic", "lifestyle"]
+  },
+  {
+    "id": "11",
+    "title": "Levi's 501 Original Jeans",
+    "brand": "Levi's",
+    "category": "clothing",
+    "subcategory": "Men's Clothing",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 89.99,
+    "listPrice": 98.0,
+    "rating": 4.5,
+    "reviews": 8934,
+    "badges": ["Classic", "Original", "Iconic"],
+    "shipping": "Free",
+    "stock": 156,
+    "variants": [
+      { "type": "color", "options": ["Original Blue", "Black", "Light Wash", "Dark Wash", "Vintage"] },
+      { "type": "size", "options": ["28", "29", "30", "31", "32", "33", "34", "36", "38", "40"] },
+      { "type": "length", "options": ["30", "32", "34", "36"] }
+    ],
+    "seller": "Levi's Store",
+    "specs": {
+      "Material": "100% Cotton Denim",
+      "Fit": "Original Straight",
+      "Rise": "Mid-rise",
+      "Closure": "Button fly",
+      "Weight": "14.75 oz denim"
+    },
+    "description": "The original blue jean since 1873. Timeless style with a straight fit and button fly.",
+    "features": ["Button Fly", "Straight Fit", "Classic 5-Pocket", "Shrink-to-Fit"],
+    "tags": ["jeans", "levis", "classic", "denim", "original"]
+  },
+  {
+    "id": "12",
+    "title": "Dyson V15 Detect Cordless Vacuum",
+    "brand": "Dyson",
+    "category": "home",
+    "subcategory": "Tools",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 649.99,
+    "listPrice": 749.99,
+    "rating": 4.7,
+    "reviews": 1876,
+    "badges": ["Premium", "Cordless", "Advanced"],
+    "shipping": "Free",
+    "stock": 42,
+    "variants": [{ "type": "color", "options": ["Yellow/Nickel", "Iron/Blue"] }],
+    "seller": "Dyson Official",
+    "specs": {
+      "Suction": "230 Air Watts",
+      "Battery": "Up to 60 minutes",
+      "Bin Capacity": "0.2 gallons",
+      "Weight": "6.8 lbs",
+      "Filtration": "Advanced whole-machine filtration"
+    },
+    "description": "Most powerful, intelligent cordless vacuum with laser dust detection and LCD screen.",
+    "features": ["Laser Dust Detection", "LCD Screen", "Anti-Tangle Technology", "Whole-Machine Filtration"],
+    "tags": ["vacuum", "cordless", "dyson", "cleaning", "smart"]
+  },
+  {
+    "id": "13",
+    "title": "KitchenAid Stand Mixer",
+    "brand": "KitchenAid",
+    "category": "home",
+    "subcategory": "Kitchen",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 379.99,
+    "listPrice": 429.99,
+    "rating": 4.8,
+    "reviews": 4521,
+    "badges": ["Professional", "Iconic", "Durable"],
+    "shipping": "Free",
+    "stock": 78,
+    "variants": [
+      { "type": "color", "options": ["Empire Red", "Onyx Black", "White", "Silver", "Aqua Sky", "Pistachio"] },
+      { "type": "size", "options": ["Artisan 5-Qt", "Professional 6-Qt"] }
+    ],
+    "seller": "KitchenAid Store",
+    "specs": {
+      "Capacity": "5 Quart",
+      "Power": "325 Watts",
+      "Speeds": "10 Speeds",
+      "Material": "Die-cast zinc",
+      "Warranty": "1 Year"
+    },
+    "description": "Iconic stand mixer with powerful motor and versatile attachments for all your baking needs.",
+    "features": ["Planetary Mixing", "Tilt-Head Design", "Attachment Hub", "Dishwasher Safe Bowl"],
+    "tags": ["mixer", "kitchenaid", "baking", "kitchen", "appliance"]
+  },
+  {
+    "id": "14",
+    "title": "Peloton Bike+",
+    "brand": "Peloton",
+    "category": "sports",
+    "subcategory": "Fitness",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 2495.0,
+    "listPrice": 2695.0,
+    "rating": 4.6,
+    "reviews": 2341,
+    "badges": ["Premium", "Connected Fitness", "Interactive"],
+    "shipping": "White Glove Delivery",
+    "stock": 15,
+    "variants": [{ "type": "color", "options": ["Carbon Steel"] }],
+    "seller": "Peloton",
+    "specs": {
+      "Screen": "23.8-inch HD touchscreen",
+      "Resistance": "Magnetic",
+      "Dimensions": "59\" L x 23\" W x 59\" H",
+      "Weight": "140 lbs",
+      "Max User Weight": "297 lbs"
+    },
+    "description": "Premium connected fitness bike with rotating HD touchscreen and access to thousands of classes.",
+    "features": ["Rotating Touchscreen", "Auto-Follow Resistance", "Apple GymKit", "Surround Sound"],
+    "tags": ["exercise bike", "peloton", "fitness", "connected", "premium"]
+  },
+  {
+    "id": "15",
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "brand": "Taylor Jenkins Reid",
+    "category": "books",
+    "subcategory": "Fiction",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 16.99,
+    "listPrice": 17.99,
+    "rating": 4.9,
+    "reviews": 12456,
+    "badges": ["Bestseller", "Award Winner", "Book Club Pick"],
+    "shipping": "Free",
+    "stock": 234,
+    "variants": [{ "type": "format", "options": ["Paperback", "Hardcover", "Kindle", "Audiobook"] }],
+    "seller": "Books & More",
+    "specs": {
+      "Pages": "400",
+      "Publisher": "Atria Books",
+      "Language": "English",
+      "ISBN": "978-1501161933",
+      "Publication Date": "June 13, 2017"
+    },
+    "description": "A captivating novel about a reclusive Hollywood icon who finally decides to tell her story to a young journalist.",
+    "features": ["NYT Bestseller", "Goodreads Choice Award", "Book Club Favorite", "LGBTQ+ Themes"],
+    "tags": ["fiction", "romance", "hollywood", "bestseller", "lgbtq"]
+  },
+  {
+    "id": "16",
+    "title": "Fenty Beauty Gloss Bomb",
+    "brand": "Fenty Beauty",
+    "category": "beauty",
+    "subcategory": "Makeup",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 19.0,
+    "listPrice": 22.0,
+    "rating": 4.5,
+    "reviews": 3421,
+    "badges": ["Viral", "Inclusive", "Cruelty-Free"],
+    "shipping": "Free",
+    "stock": 167,
+    "variants": [{ "type": "shade", "options": ["Fu$$y", "Fenty Glow", "Sweet Mouth", "Hot Chocolit", "Cake Shake"] }],
+    "seller": "Fenty Beauty",
+    "specs": {
+      "Volume": "0.32 fl oz",
+      "Finish": "High-shine",
+      "Formula": "Non-sticky",
+      "Cruelty-Free": "Yes",
+      "Vegan": "Yes"
+    },
+    "description": "Explosive shine lip luminizer that feels as good as it looks with addictive peach-vanilla scent.",
+    "features": ["Explosive Shine", "Peach-Vanilla Scent", "Non-Sticky Formula", "Universal Shades"],
+    "tags": ["lip gloss", "fenty", "makeup", "shine", "inclusive"]
+  },
+  {
+    "id": "17",
+    "title": "Tesla Model Y Performance Wheels",
+    "brand": "Tesla",
+    "category": "automotive",
+    "subcategory": "Accessories",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 2400.0,
+    "listPrice": 2600.0,
+    "rating": 4.7,
+    "reviews": 234,
+    "badges": ["OEM", "Performance", "Premium"],
+    "shipping": "Free Installation",
+    "stock": 12,
+    "variants": [{ "type": "size", "options": ["21-inch"] }, { "type": "color", "options": ["Gloss Black", "Silver"] }],
+    "seller": "Tesla Store",
+    "specs": {
+      "Size": "21 x 9.5 inches",
+      "Material": "Forged Aluminum",
+      "Weight": "32 lbs each",
+      "Finish": "Gloss Black",
+      "Compatibility": "Model Y"
+    },
+    "description": "Official Tesla Performance wheels designed for Model Y with enhanced aerodynamics and style.",
+    "features": ["Forged Aluminum", "Aerodynamic Design", "OEM Quality", "Performance Optimized"],
+    "tags": ["tesla", "wheels", "performance", "model y", "automotive"]
+  },
+  {
+    "id": "18",
+    "title": "LEGO Creator Expert Taj Mahal",
+    "brand": "LEGO",
+    "category": "toys",
+    "subcategory": "Educational",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 369.99,
+    "listPrice": 399.99,
+    "rating": 4.8,
+    "reviews": 1876,
+    "badges": ["Expert Level", "Architecture", "Collector"],
+    "shipping": "Free",
+    "stock": 45,
+    "variants": [{ "type": "edition", "options": ["Standard"] }],
+    "seller": "LEGO Store",
+    "specs": {
+      "Pieces": "5923",
+      "Age": "18+",
+      "Dimensions": "20\" x 20\" x 8\"",
+      "Series": "Creator Expert",
+      "Release Year": "2017"
+    },
+    "description": "Magnificent LEGO recreation of the iconic Taj Mahal with incredible architectural detail.",
+    "features": ["5923 Pieces", "Detailed Architecture", "Display Stand", "Collector's Item"],
+    "tags": ["lego", "architecture", "taj mahal", "collector", "building"]
+  },
+  {
+    "id": "19",
+    "title": "Vitamix A3500 Ascent Blender",
+    "brand": "Vitamix",
+    "category": "health",
+    "subcategory": "Nutrition",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 549.95,
+    "listPrice": 599.95,
+    "rating": 4.6,
+    "reviews": 2134,
+    "badges": ["Professional", "Smart", "Powerful"],
+    "shipping": "Free",
+    "stock": 67,
+    "variants": [{ "type": "color", "options": ["Black", "Red", "White", "Brushed Stainless"] }],
+    "seller": "Vitamix Official",
+    "specs": {
+      "Motor": "2.2 peak horsepower",
+      "Container": "64 oz Low-Profile",
+      "Programs": "5 Program Settings",
+      "Warranty": "10 Years",
+      "Connectivity": "Wireless"
+    },
+    "description": "Smart high-performance blender with built-in wireless connectivity and self-detect technology.",
+    "features": ["Wireless Connectivity", "Self-Detect Technology", "5 Program Settings", "10-Year Warranty"],
+    "tags": ["blender", "vitamix", "smoothies", "health", "professional"]
+  },
+  {
+    "id": "20",
+    "title": "Herman Miller Aeron Chair",
+    "brand": "Herman Miller",
+    "category": "office",
+    "subcategory": "Furniture",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 1395.0,
+    "listPrice": 1495.0,
+    "rating": 4.7,
+    "reviews": 3456,
+    "badges": ["Ergonomic", "Professional", "Award-Winning"],
+    "shipping": "Free White Glove",
+    "stock": 23,
+    "variants": [
+      { "type": "size", "options": ["Size A (Small)", "Size B (Medium)", "Size C (Large)"] },
+      { "type": "color", "options": ["Graphite", "Mineral", "Carbon"] }
+    ],
+    "seller": "Herman Miller",
+    "specs": {
+      "Material": "8Z Pellicle mesh",
+      "Frame": "Recycled aluminum",
+      "Adjustment": "12 adjustment points",
+      "Weight Capacity": "350 lbs",
+      "Warranty": "12 years"
+    },
+    "description": "Iconic ergonomic office chair with advanced PostureFit SL support and breathable mesh design.",
+    "features": ["PostureFit SL", "8Z Pellicle Mesh", "Tilt Limiter", "12-Year Warranty"],
+    "tags": ["office chair", "ergonomic", "herman miller", "professional", "premium"]
+  },
+  {
+    "id": "21",
+    "title": "Blue Buffalo Life Protection Dog Food",
+    "brand": "Blue Buffalo",
+    "category": "pet",
+    "subcategory": "Dog Supplies",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 54.99,
+    "listPrice": 59.99,
+    "rating": 4.4,
+    "reviews": 5678,
+    "badges": ["Natural", "No By-Products", "Veterinarian Recommended"],
+    "shipping": "Free",
+    "stock": 89,
+    "variants": [
+      { "type": "flavor", "options": ["Chicken & Brown Rice", "Lamb & Brown Rice", "Fish & Sweet Potato"] },
+      { "type": "size", "options": ["6 lbs", "15 lbs", "30 lbs"] },
+      { "type": "life_stage", "options": ["Puppy", "Adult", "Senior"] }
+    ],
+    "seller": "Pet Supply Plus",
+    "specs": {
+      "Primary Protein": "Deboned Chicken",
+      "Life Stage": "Adult",
+      "Breed Size": "All Sizes",
+      "Special Diet": "Natural",
+      "Made In": "USA"
+    },
+    "description": "Natural dog food with real meat, wholesome grains, and LifeSource Bits for optimal nutrition.",
+    "features": ["Real Meat First", "LifeSource Bits", "No Chicken By-Products", "Natural Ingredients"],
+    "tags": ["dog food", "natural", "blue buffalo", "chicken", "nutrition"]
+  },
+  {
+    "id": "22",
+    "title": "Starbucks Pike Place Roast Coffee",
+    "brand": "Starbucks",
+    "category": "food",
+    "subcategory": "Beverages",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 12.99,
+    "listPrice": 14.99,
+    "rating": 4.3,
+    "reviews": 8934,
+    "badges": ["Signature Blend", "Medium Roast", "Fair Trade"],
+    "shipping": "Free",
+    "stock": 234,
+    "variants": [
+      { "type": "size", "options": ["12 oz", "20 oz", "40 oz"] },
+      { "type": "grind", "options": ["Whole Bean", "Ground"] }
+    ],
+    "seller": "Starbucks Store",
+    "specs": {
+      "Roast": "Medium",
+      "Origin": "Latin America",
+      "Flavor Notes": "Smooth, balanced",
+      "Certification": "Fair Trade",
+      "Caffeine": "Medium"
+    },
+    "description": "Starbucks signature medium roast coffee with smooth, well-rounded flavor and subtle notes of cocoa and toasted nuts.",
+    "features": ["Signature Blend", "Fair Trade Certified", "Medium Roast", "Smooth Flavor"],
+    "tags": ["coffee", "starbucks", "medium roast", "fair trade", "signature"]
+  },
+  {
+    "id": "23",
+    "title": "Sony WH-1000XM5 Headphones",
+    "brand": "Sony",
+    "category": "electronics",
+    "subcategory": "Audio",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 349.99,
+    "listPrice": 399.99,
+    "rating": 4.8,
+    "reviews": 4521,
+    "badges": ["Industry Leading", "Noise Cancelling", "Premium"],
+    "shipping": "Free",
+    "stock": 78,
+    "variants": [{ "type": "color", "options": ["Black", "Silver", "Midnight Blue"] }],
+    "seller": "Sony Official",
+    "specs": {
+      "Battery Life": "30 hours",
+      "Noise Cancelling": "Industry Leading",
+      "Driver": "30mm",
+      "Connectivity": "Bluetooth 5.2, NFC",
+      "Weight": "250g"
+    },
+    "description": "Industry-leading noise cancelling headphones with exceptional sound quality and all-day comfort.",
+    "features": ["Industry Leading NC", "30hr Battery", "Quick Charge", "Multipoint Connection"],
+    "tags": ["headphones", "sony", "noise cancelling", "premium", "wireless"]
+  },
+  {
+    "id": "24",
+    "title": "Patagonia Better Sweater Fleece",
+    "brand": "Patagonia",
+    "category": "clothing",
+    "subcategory": "Men's Clothing",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 119.0,
+    "listPrice": 139.0,
+    "rating": 4.6,
+    "reviews": 2876,
+    "badges": ["Sustainable", "Outdoor", "Fair Trade"],
+    "shipping": "Free",
+    "stock": 145,
+    "variants": [
+      { "type": "color", "options": ["Navy Blue", "Black", "Forge Grey", "Classic Red", "Pelican"] },
+      { "type": "size", "options": ["XS", "S", "M", "L", "XL", "XXL"] }
+    ],
+    "seller": "Patagonia",
+    "specs": {
+      "Material": "100% recycled polyester fleece",
+      "Weight": "9.5 oz",
+      "Fit": "Regular",
+      "Care": "Machine wash",
+      "Certification": "Fair Trade Certified"
+    },
+    "description": "Classic fleece jacket made from 100% recycled polyester with timeless styling and reliable warmth.",
+    "features": ["100% Recycled Polyester", "Fair Trade Certified", "Durable Water Repellent", "Classic Fit"],
+    "tags": ["fleece", "patagonia", "sustainable", "outdoor", "recycled"]
+  },
+  {
+    "id": "25",
+    "title": "Instant Pot Duo 7-in-1",
+    "brand": "Instant Pot",
+    "category": "home",
+    "subcategory": "Kitchen",
+    "images": [
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400",
+      "/placeholder.svg?height=400&width=400"
+    ],
+    "price": 79.99,
+    "listPrice": 99.99,
+    "rating": 4.7,
+    "reviews": 15678,
+    "badges": ["Bestseller", "7-in-1", "Time Saver"],
+    "shipping": "Free",
+    "stock": 234,
+    "variants": [{ "type": "size", "options": ["3 Qt", "6 Qt", "8 Qt"] }],
+    "seller": "Instant Pot Store",
+    "specs": {
+      "Capacity": "6 Quart",
+      "Functions": "7-in-1",
+      "Material": "Stainless Steel",
+      "Safety": "10+ safety features",
+      "Warranty": "1 Year"
+    },
+    "description": "7-in-1 multi-use programmable pressure cooker that replaces 7 kitchen appliances.",
+    "features": ["7 Appliances in 1", "14 Smart Programs", "Quick One-Touch Cooking", "Safe & Convenient"],
+    "tags": ["pressure cooker", "instant pot", "multi-cooker", "kitchen", "convenient"]
+  }
+]

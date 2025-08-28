@@ -1,0 +1,22 @@
+{
+  "orders": {
+    "value": 1247,
+    "change": 12.5,
+    "period": "vs last month"
+  },
+  "revenue": {
+    "value": 89420,
+    "change": 8.3,
+    "period": "vs last month"
+  },
+  "conversion": {
+    "value": 3.2,
+    "change": -0.5,
+    "period": "vs last month"
+  },
+  "rating": {
+    "value": 4.6,
+    "change": 0.2,
+    "period": "vs last month"
+  }
+}

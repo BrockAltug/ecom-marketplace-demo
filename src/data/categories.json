@@ -1,0 +1,86 @@
+[
+  {
+    "id": "electronics",
+    "name": "Electronics",
+    "icon": "Smartphone",
+    "count": 3450,
+    "subcategories": ["Smartphones", "Laptops", "Audio", "Gaming", "Smart Home", "Cameras", "Wearables"]
+  },
+  {
+    "id": "clothing",
+    "name": "Clothing & Fashion",
+    "icon": "Shirt",
+    "count": 5200,
+    "subcategories": ["Men's Clothing", "Women's Clothing", "Shoes", "Accessories", "Jewelry", "Bags", "Watches"]
+  },
+  {
+    "id": "home",
+    "name": "Home & Garden",
+    "icon": "Home",
+    "count": 2890,
+    "subcategories": ["Furniture", "Kitchen", "Decor", "Bedding", "Garden", "Tools", "Storage"]
+  },
+  {
+    "id": "sports",
+    "name": "Sports & Outdoors",
+    "icon": "Dumbbell",
+    "count": 1850,
+    "subcategories": ["Fitness", "Outdoor Gear", "Team Sports", "Water Sports", "Winter Sports", "Cycling"]
+  },
+  {
+    "id": "books",
+    "name": "Books & Media",
+    "icon": "Book",
+    "count": 2800,
+    "subcategories": ["Fiction", "Non-Fiction", "Educational", "Comics", "Audiobooks", "E-books"]
+  },
+  {
+    "id": "beauty",
+    "name": "Beauty & Personal Care",
+    "icon": "Sparkles",
+    "count": 1720,
+    "subcategories": ["Skincare", "Makeup", "Hair Care", "Fragrances", "Personal Care", "Tools"]
+  },
+  {
+    "id": "automotive",
+    "name": "Automotive",
+    "icon": "Car",
+    "count": 950,
+    "subcategories": ["Car Parts", "Accessories", "Tools", "Electronics", "Maintenance", "Exterior"]
+  },
+  {
+    "id": "toys",
+    "name": "Toys & Games",
+    "icon": "Gamepad2",
+    "count": 1980,
+    "subcategories": ["Action Figures", "Board Games", "Educational", "Electronic Toys", "Outdoor Toys", "Puzzles"]
+  },
+  {
+    "id": "health",
+    "name": "Health & Wellness",
+    "icon": "Heart",
+    "count": 1240,
+    "subcategories": ["Supplements", "Medical Supplies", "Fitness Equipment", "Mental Health", "Nutrition"]
+  },
+  {
+    "id": "office",
+    "name": "Office & Business",
+    "icon": "Briefcase",
+    "count": 890,
+    "subcategories": ["Office Supplies", "Furniture", "Electronics", "Storage", "Printing", "Software"]
+  },
+  {
+    "id": "pet",
+    "name": "Pet Supplies",
+    "icon": "Heart",
+    "count": 1150,
+    "subcategories": ["Dog Supplies", "Cat Supplies", "Fish & Aquatic", "Bird Supplies", "Small Animals", "Reptiles"]
+  },
+  {
+    "id": "food",
+    "name": "Food & Beverages",
+    "icon": "Coffee",
+    "count": 2340,
+    "subcategories": ["Snacks", "Beverages", "Organic", "International", "Gourmet", "Pantry Staples"]
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "performance": {
+    "totalViews": {
+      "value": 45678,
+      "change": 15.2,
+      "period": "vs last month"
+    },
+    "clickThroughRate": {
+      "value": 2.8,
+      "change": 0.3,
+      "period": "vs last month"
+    },
+    "averageOrderValue": {
+      "value": 71.75,
+      "change": 5.8,
+      "period": "vs last month"
+    },
+    "returnCustomers": {
+      "value": 34.2,
+      "change": 2.1,
+      "period": "vs last month"
+    },
+    "inventoryTurnover": {
+      "value": 4.2,
+      "change": -0.3,
+      "period": "vs last quarter"
+    },
+    "profitMargin": {
+      "value": 23.5,
+      "change": 1.2,
+      "period": "vs last month"
+    }
+  },
+  "customerInsights": {
+    "demographics": {
+      "ageGroups": [
+        { "range": "18-24", "percentage": 18, "revenue": 12500 },
+        { "range": "25-34", "percentage": 32, "revenue": 28900 },
+        { "range": "35-44", "percentage": 28, "revenue": 25100 },
+        { "range": "45-54", "percentage": 15, "revenue": 15800 },
+        { "range": "55+", "percentage": 7, "revenue": 7120 }
+      ],
+      "topLocations": [
+        { "city": "New York", "orders": 234, "revenue": 18500 },
+        { "city": "Los Angeles", "orders": 189, "revenue": 14200 },
+        { "city": "Chicago", "orders": 156, "revenue": 11800 },
+        { "city": "Houston", "orders": 134, "revenue": 9600 },
+        { "city": "Phoenix", "orders": 98, "revenue": 7300 }
+      ]
+    },
+    "behavior": {
+      "averageSessionDuration": "4m 32s",
+      "pagesPerSession": 3.8,
+      "bounceRate": 42.3,
+      "peakHours": [
+        { "hour": "10:00", "traffic": 85 },
+        { "hour": "14:00", "traffic": 92 },
+        { "hour": "19:00", "traffic": 78 },
+        { "hour": "21:00", "traffic": 88 }
+      ]
+    }
+  },
+  "productPerformance": {
+    "topPerformers": [
+      {
+        "id": "1",
+        "name": "Wireless Bluetooth Headphones",
+        "sales": 234,
+        "revenue": 18672,
+        "views": 5678,
+        "conversionRate": 4.1
+      },
+      {
+        "id": "8",
+        "name": "iPhone 15 Pro Max",
+        "sales": 89,
+        "revenue": 106791,
+        "views": 3456,
+        "conversionRate": 2.6
+      },
+      {
+        "id": "10",
+        "name": "Nike Air Max 270",
+        "sales": 156,
+        "revenue": 23394,
+        "views": 4321,
+        "conversionRate": 3.6
+      }
+    ],
+    "underPerformers": [
+      {
+        "id": "5",
+        "name": "Ceramic Coffee Mug Set",
+        "sales": 12,
+        "revenue": 479,
+        "views": 890,
+        "conversionRate": 1.3
+      }
+    ]
+  },
+  "forecasting": {
+    "nextMonth": {
+      "predictedRevenue": 96500,
+      "predictedOrders": 1340,
+      "confidence": 87
+    },
+    "nextQuarter": {
+      "predictedRevenue": 285000,
+      "predictedOrders": 3950,
+      "confidence": 82
+    },
+    "seasonalTrends": [
+      { "month": "Jan", "multiplier": 0.85 },
+      { "month": "Feb", "multiplier": 0.78 },
+      { "month": "Mar", "multiplier": 0.92 },
+      { "month": "Apr", "multiplier": 1.05 },
+      { "month": "May", "multiplier": 1.12 },
+      { "month": "Jun", "multiplier": 1.08 },
+      { "month": "Jul", "multiplier": 0.95 },
+      { "month": "Aug", "multiplier": 0.88 },
+      { "month": "Sep", "multiplier": 1.15 },
+      { "month": "Oct", "multiplier": 1.25 },
+      { "month": "Nov", "multiplier": 1.45 },
+      { "month": "Dec", "multiplier": 1.38 }
+    ]
+  },
+  "recommendations": [
+    {
+      "type": "inventory",
+      "priority": "high",
+      "title": "Restock Popular Items",
+      "description": "Wireless Bluetooth Headphones are running low. Consider restocking within 5 days.",
+      "impact": "Prevent $15,000 in lost sales"
+    },
+    {
+      "type": "pricing",
+      "priority": "medium",
+      "title": "Optimize Pricing Strategy",
+      "description": "Coffee Mug Set has low conversion. Consider reducing price by 15% or bundling.",
+      "impact": "Increase conversion by 2.3%"
+    },
+    {
+      "type": "marketing",
+      "priority": "medium",
+      "title": "Target Peak Hours",
+      "description": "Increase ad spend during 2-3 PM when traffic is highest.",
+      "impact": "Boost visibility by 25%"
+    }
+  ]
+}

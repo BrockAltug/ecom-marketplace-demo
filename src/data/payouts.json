@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PO-2024-001",
+    "date": "2024-01-14",
+    "amount": 4250.0,
+    "status": "completed",
+    "method": "Bank Transfer",
+    "period": "Jan 1-7, 2024"
+  },
+  {
+    "id": "PO-2024-002",
+    "date": "2024-01-07",
+    "amount": 3890.5,
+    "status": "completed",
+    "method": "Bank Transfer",
+    "period": "Dec 25-31, 2023"
+  },
+  {
+    "id": "PO-2024-003",
+    "date": "2024-01-21",
+    "amount": 5120.75,
+    "status": "pending",
+    "method": "Bank Transfer",
+    "period": "Jan 8-14, 2024"
+  }
+]

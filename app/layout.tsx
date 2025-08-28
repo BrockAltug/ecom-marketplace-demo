@@ -10,7 +10,7 @@ import { PerformanceMonitor } from "@/components/ui/performance-monitor"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "MarketPlace - Your Modern Shopping Destination",
+  title: "SoftEdge - Marketplace Demo",
   description:
     "Discover amazing products with advanced search, personalized recommendations, and seamless shopping experience.",
   generator: "v0.app",
